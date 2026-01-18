@@ -33,7 +33,6 @@
 
 <style>
 	.about-section {
-		padding: 1rem 0;
 		background: var(--glass-bg);
 		border: 1px solid var(--border-color);
 		border-radius: 12px;

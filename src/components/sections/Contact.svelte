@@ -88,6 +88,7 @@
 	.contact-text {
 		display: flex;
 		flex-direction: column;
+		overflow: hidden;
 	}
 
 	.contact-label {
@@ -101,6 +102,10 @@
 		margin: 0.25rem 0 0 0;
 		color: var(--text-primary);
 		font-weight: 600;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		max-width: 100%;
 	}
 
 	.form-group {

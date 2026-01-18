@@ -133,6 +133,22 @@
 		margin-bottom: 0.5rem;
 	}
 
+	@media (max-width: 640px) {
+		.card-header {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		h3 {
+			width: 100%;
+		}
+
+		.period {
+			width: 100%;
+			white-space: normal;
+		}
+	}
+
 	h3 {
 		margin: 0;
 		font-size: 1.3rem;
