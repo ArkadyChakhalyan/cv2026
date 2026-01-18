@@ -1,0 +1,20 @@
+{
+  "name": "my-svelte-vite-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "svelte": "^4"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "^5",
+    "vite": "^4"
+  }
+}
